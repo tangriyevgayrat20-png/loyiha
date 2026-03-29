@@ -55,7 +55,7 @@ nav a {
     color: #000;
     margin: 0 12px;
     font-size: 14px;
-    opacity: 0.6;
+    
 }
 
 nav a:first-child {
@@ -168,7 +168,6 @@ nav a:first-child {
 
 .product-card img {
     height: 160px;
-    object-fit: contain;
     margin-bottom: 15px;
 }
 
