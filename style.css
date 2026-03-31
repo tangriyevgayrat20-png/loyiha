@@ -36,11 +36,14 @@
 .search-box i {
     color: #999;
     margin-right: 10px;
+    border-radius: 10px;
+
 }
 
 .search-box input {
     border: none;
     width: 100%;
+    border-radius: 20px;
 }
 
 .nav-links a {
@@ -569,3 +572,12 @@ footer {
         display: none;
     }
 }
+
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
