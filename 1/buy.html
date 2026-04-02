@@ -4,14 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cyber - iPhone 14 Pro Max</title>
-    <link rel="stylesheet" href="Contact.css">
-    <link rel="stylesheet" href="/index.html">
-    <link rel="stylesheet" href="/2/About.html">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./buy.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
 
-    <header class="navbar">
+   <div class="loading">
+        <div class="loader-wrapper">
+            <span class="loader-letter">L</span>
+            <span class="loader-letter">o</span>
+            <span class="loader-letter">a</span>
+            <span class="loader-letter">d</span>
+            <span class="loader-letter">i</span>
+            <span class="loader-letter">n</span>
+            <span class="loader-letter">g</span>
+            <span class="loader-letter">.</span>
+            <span class="loader-letter">.</span>
+            <span class="loader-letter">.</span>
+            <div class="loader"></div>
+        </div>
+    </div>
+
+    <header class="navbar" data-aos="fade-down">
         <div class="container nav-flex">
             <div class="logo">cyber</div>
             
@@ -23,7 +38,7 @@
             <nav class="nav-links">
                 <a href="/index.html" class="active">Home</a>
                 <a href="/2/About.html">About</a>
-                <a href="./Contact.html">Contact Us</a>
+                <a href="./buy.html">Buy Now</a>
             </nav>
 
             <div class="nav-actions">
@@ -34,7 +49,7 @@
         </div>
     </header>
 
-    <section class="breadcrumb-section">
+    <section class="breadcrumb-section" data-aos="fade-right" data-aos-delay="200">
         <div class="container">
             <nav class="breadcrumbs">
                 <a href="#">Home</a>
@@ -52,24 +67,24 @@
 
     <main class="container product-grid">
         
-        <div class="product-images">
-            <div class="thumb-column">
+        <div class="product-images" data-aos="fade-right" data-aos-duration="1000">
+            <div class="thumb-column" data-aos="fade-up" data-aos-delay="400">
                 <img src="https://m.media-amazon.com/images/I/71yzJoE7WlL._AC_SL1500_.jpg" class="active">
                 <img src="/img/Iphone Image.png">
             </div>
-            <div class="main-view">
+            <div class="main-view" data-aos="zoom-in" data-aos-delay="600">
                 <img src="https://m.media-amazon.com/images/I/71yzJoE7WlL._AC_SL1500_.jpg" alt="iPhone 14 Pro Max">
             </div>
         </div>
 
-        <div class="product-info">
+        <div class="product-info" data-aos="fade-left" data-aos-duration="1000">
             <h1 class="p-title">Apple iPhone 14 Pro Max</h1>
-            <div class="p-price">
+            <div class="p-price" data-aos="fade-up" data-aos-delay="300">
                 <span class="new">$1399</span>
                 <span class="old">$1499</span>
             </div>
 
-            <div class="p-options">
+            <div class="p-options" data-aos="fade-up" data-aos-delay="400">
                 <p class="opt-label">Select color :</p>
                 <div class="color-list">
                     <div class="dot black active"></div>
@@ -80,7 +95,7 @@
                 </div>
             </div>
 
-            <div class="p-options">
+            <div class="p-options" data-aos="fade-up" data-aos-delay="500">
                 <div class="storage-list">
                     <button class="st-item disabled">128GB</button>
                     <button class="st-item">256GB</button>
@@ -90,42 +105,30 @@
             </div>
 
             <div class="specs-wrapper">
-                <div class="spec-card">
+                <div class="spec-card" data-aos="zoom-in" data-aos-delay="600">
                     <i class="fas fa-mobile-alt"></i>
                     <div class="spec-text"><span>Screen size</span><strong>6.7"</strong></div>
                 </div>
-                <div class="spec-card">
+                <div class="spec-card" data-aos="zoom-in" data-aos-delay="700">
                     <i class="fas fa-microchip"></i>
-                    <div class="spec-text"><span>CPU</span><strong>Apple A16 Bionic</strong></div>
+                    <div class="spec-text"><span>CPU</span><strong>A16 Bionic</strong></div>
                 </div>
-                <div class="spec-card">
-                    <i class="fas fa-microchip"></i>
-                    <div class="spec-text"><span>Cores</span><strong>6</strong></div>
-                </div>
-                <div class="spec-card">
-                    <i class="fas fa-camera"></i>
-                    <div class="spec-text"><span>Main camera</span><strong>48-12-12 MP</strong></div>
-                </div>
-                <div class="spec-card">
-                    <i class="fas fa-camera-retro"></i>
-                    <div class="spec-text"><span>Front camera</span><strong>12 MP</strong></div>
-                </div>
-                <div class="spec-card">
+                <div class="spec-card" data-aos="zoom-in" data-aos-delay="800">
                     <i class="fas fa-battery-full"></i>
                     <div class="spec-text"><span>Battery</span><strong>4323 mAh</strong></div>
                 </div>
-            </div>
+                </div>
 
-            <p class="p-description">
-                Enhanced capabilities thanks to an enlarged display of 6.7 inches and work without recharging throughout the day. Incredible photos in weak light using the new system with two cameras <a href="#">more...</a>
+            <p class="p-description" data-aos="fade-up" data-aos-delay="900">
+                Enhanced capabilities thanks to an enlarged display... <a href="#">more...</a>
             </p>
 
-            <div class="p-actions">
+            <div class="p-actions" data-aos="fade-up" data-aos-delay="1000">
                 <button class="btn-outline">Add to Wishlist</button>
                 <button class="btn-dark">Add to Card</button>
             </div>
 
-            <div class="shipping-footer">
+            <div class="shipping-footer" data-aos="fade-up" data-aos-delay="1100">
                 <div class="ship-card">
                     <div class="icon-box"><i class="fas fa-truck"></i></div>
                     <div class="ship-text"><span>Free Delivery</span><strong>1-2 day</strong></div>
@@ -134,13 +137,18 @@
                     <div class="icon-box"><i class="fas fa-store"></i></div>
                     <div class="ship-text"><span>In Stock</span><strong>Today</strong></div>
                 </div>
-                <div class="ship-card">
-                    <div class="icon-box"><i class="fas fa-check-circle"></i></div>
-                    <div class="ship-text"><span>Guaranteed</span><strong>1 year</strong></div>
-                </div>
             </div>
         </div>
     </main>
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            easing: 'ease-in-out',
+            once: true,
+            anchorPlacement: 'top-bottom'
+        });
+    </script>
 </body>
 </html>
