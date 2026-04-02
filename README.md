@@ -2,3 +2,4 @@
 # Loyiha1
 # Loyiha1
 # Loyiha1
+# loyixa
